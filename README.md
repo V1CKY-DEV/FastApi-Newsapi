@@ -2,6 +2,17 @@
 
 This project is a FastAPI application that fetches and displays the latest news articles using the [News API](https://newsapi.org/). The application uses caching to improve performance and is Dockerized for easy deployment.
 
+## Dependencies
+
+The following Python packages are used in this project:
+
+- `fastapi`: Web framework for building APIs.
+- `uvicorn`: ASGI server for running FastAPI applications.
+- `httpx`: HTTP client for making API requests.
+- `jinja2`: Templating engine for rendering HTML.
+- `python-dotenv`: For loading environment variables from a `.env` file.
+- `cachetools`: Library for caching with TTL (Time-To-Live).
+
 ## Features
 
 - Fetches news articles from the News API.
@@ -89,4 +100,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [News API](https://newsapi.org/) for providing the news data.
 - [FastAPI](https://fastapi.tiangolo.com/) for the web framework.
 - [Docker](https://www.docker.com/) for containerization.
-
