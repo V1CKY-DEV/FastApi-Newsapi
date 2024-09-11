@@ -2,6 +2,7 @@
 
 This project is a FastAPI application that fetches and displays the latest news articles using the [News API](https://newsapi.org/). The application uses caching to improve performance and is Dockerized for easy deployment.
 
+
 ## Dependencies
 
 The following Python packages are used in this project:
